@@ -1,0 +1,72 @@
+body {
+    background: #67B26F;
+    background: -webkit-linear-gradient(to left, #4ca2cd, #67B26F);
+    background: linear-gradient(to left, #4ca2cd, #67B26F);
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+}
+
+.student-profile .card {
+    border-radius: 10px;
+}
+
+.student-profile .card .card-header .profile_img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px auto;
+    border: 10px solid #ccc;
+    border-radius: 50%;
+    box-shadow: 8px 9px 23px -6px rgb(90 90 90 / 100%);
+    transition: transform .2s;
+}
+
+.student-profile .card .card-header .profile_img:hover {
+  transform: scale(1.1);
+}
+
+.student-profile .card h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.student-profile .card p {
+    font-size: 16px;
+    color: #000;
+}
+
+.student-profile .table th,
+.student-profile .table td {
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #000;
+}
+
+.input_boxes {
+    border: none;
+    box-shadow: none;    
+    text-shadow: none;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+}
+.change_buttons {
+    width: 100%;
+    border: none;
+    background-color: rgb(235, 235, 235);
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#head {
+    font-family: Impact;
+    font-weight: 100;
+    color: rgb(196, 207, 207);
+    font-size: 2em;
+    opacity: 100%;
+    letter-spacing: 0.05em;
+}
